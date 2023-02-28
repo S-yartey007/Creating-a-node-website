@@ -1,28 +1,15 @@
 {
   "name": "creating-a-node-website",
   "version": "1.0.0",
-  "description": "Tutorials for node",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/S-yartey007/Creating-a-node-website.git"
-  },
-  "keywords": [
-    "node"
-  ],
-  "author": "Emmanuel Yartey",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/S-yartey007/Creating-a-node-website/issues"
-  },
-  "homepage": "https://github.com/S-yartey007/Creating-a-node-website#readme",
   "dependencies": {
-    "uuid": "^9.0.0"
-  },
-  "devDependencies": {
     "nodemon": "^2.0.20"
   }
 }
